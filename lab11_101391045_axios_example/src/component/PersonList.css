@@ -1,0 +1,45 @@
+h1{
+    background-color: green;
+    text-align: center;
+    margin: 10px;
+}
+
+.personInfo {
+    background-color: rgb(139, 248, 248);
+    margin: 10px;
+}
+
+h2{
+    background-color: rgb(85, 196, 196);
+    font-weight: bold;
+}
+
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.personInfoContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.personInfoRight {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.personInfoLeft {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(102, 206, 240);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
